@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/no_bg"
+    tools:context=".PizzaActivity">
+
+   <TextView
+       android:id="@+id/textView12"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Pizza"
+       android:textColor="@color/black"
+       android:textSize="34sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.472"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.023" />
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/constraintLayout9"
+       android:layout_width="339dp"
+       android:layout_height="194dp"
+       android:layout_marginStart="35dp"
+       android:layout_marginTop="22dp"
+       android:layout_marginEnd="35dp"
+       android:background="@drawable/yellow_button"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.526"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+      <TextView
+          android:id="@+id/textView37"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="176dp"
+          android:text="Populor Range"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/imageView10"
+          android:layout_width="108dp"
+          android:layout_height="62dp"
+          android:layout_marginStart="3dp"
+          android:layout_marginTop="32dp"
+          android:layout_marginEnd="3dp"
+          app:layout_constraintEnd_toStartOf="@+id/imageView21"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView37"
+          app:srcCompat="@drawable/meatloadedpizza" />
+
+      <TextView
+          android:id="@+id/textView38"
+          android:layout_width="107dp"
+          android:layout_height="44dp"
+          android:layout_marginStart="4dp"
+          android:layout_marginBottom="36dp"
+          android:text="Mighty Meaty Pizza Rs.1990"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/imageView21"
+          android:layout_width="111dp"
+          android:layout_height="50dp"
+          android:layout_marginStart="3dp"
+          android:layout_marginTop="36dp"
+          android:layout_marginEnd="3dp"
+          app:layout_constraintEnd_toStartOf="@+id/imageView22"
+          app:layout_constraintStart_toEndOf="@+id/imageView10"
+          app:layout_constraintTop_toBottomOf="@+id/textView37"
+          app:srcCompat="@drawable/seafoofpizza" />
+
+      <TextView
+          android:id="@+id/textView39"
+          android:layout_width="102dp"
+          android:layout_height="66dp"
+          android:layout_marginStart="12dp"
+          android:layout_marginBottom="16dp"
+          android:text="Seafood Pizza Rs.2300"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/textView38" />
+
+      <ImageView
+          android:id="@+id/imageView22"
+          android:layout_width="95dp"
+          android:layout_height="87dp"
+          android:layout_marginStart="3dp"
+          android:layout_marginTop="36dp"
+          android:layout_marginEnd="3dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/imageView21"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/cheese_pinaple" />
+
+      <TextView
+          android:id="@+id/textView40"
+          android:layout_width="81dp"
+          android:layout_height="60dp"
+          android:layout_marginStart="12dp"
+          android:layout_marginBottom="20dp"
+          android:text="Cheese Pizza Rs.1990"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/textView39" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="343dp"
+       android:layout_height="333dp"
+       android:layout_marginStart="40dp"
+       android:layout_marginTop="37dp"
+       android:layout_marginEnd="40dp"
+       android:layout_marginBottom="54dp"
+       android:background="@drawable/yellow_button"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
+
+      <ImageView
+          android:id="@+id/imageView23"
+          android:layout_width="110dp"
+          android:layout_height="72dp"
+          android:layout_marginStart="4dp"
+          android:layout_marginTop="36dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/paparonipizza" />
+
+      <TextView
+          android:id="@+id/textView42"
+          android:layout_width="114dp"
+          android:layout_height="58dp"
+          android:layout_marginStart="8dp"
+          android:layout_marginTop="8dp"
+          android:text="Paparoni Pissa  Rs.2100"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+      <ImageView
+          android:id="@+id/imageView24"
+          android:layout_width="163dp"
+          android:layout_height="64dp"
+          android:layout_marginStart="8dp"
+          android:layout_marginTop="172dp"
+          android:layout_marginBottom="51dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.56"
+          app:srcCompat="@drawable/chickenpizza" />
+
+      <TextView
+          android:id="@+id/textView43"
+          android:layout_width="78dp"
+          android:layout_height="67dp"
+          android:layout_marginStart="8dp"
+          android:layout_marginTop="16dp"
+          android:text="Veg Pizza Rs.1450"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintStart_toEndOf="@+id/textView42"
+          app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+      <ImageView
+          android:id="@+id/imageView27"
+          android:layout_width="117dp"
+          android:layout_height="69dp"
+          android:layout_marginTop="36dp"
+          android:layout_marginEnd="6dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/doublechicken" />
+
+      <TextView
+          android:id="@+id/textView44"
+          android:layout_width="120dp"
+          android:layout_height="67dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="4dp"
+          android:text="Thanduri Chicken Pizza Rs. 2250"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+      <ImageView
+          android:id="@+id/imageView25"
+          android:layout_width="158dp"
+          android:layout_height="180dp"
+          android:layout_marginEnd="15dp"
+          android:layout_marginBottom="16dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:srcCompat="@drawable/seafoodpizza" />
+
+      <TextView
+          android:id="@+id/textView45"
+          android:layout_width="121dp"
+          android:layout_height="59dp"
+          android:layout_marginStart="32dp"
+          android:layout_marginBottom="4dp"
+          android:text="Deviled Chicken Pizza Rs. 2100"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent" />
+
+      <ImageView
+          android:id="@+id/imageView26"
+          android:layout_width="165dp"
+          android:layout_height="60dp"
+          android:layout_marginStart="1dp"
+          android:layout_marginTop="40dp"
+          app:layout_constraintEnd_toStartOf="@+id/imageView27"
+          app:layout_constraintHorizontal_bias="0.444"
+          app:layout_constraintStart_toEndOf="@+id/imageView23"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/vegpizza" />
+
+      <TextView
+          android:id="@+id/textView46"
+          android:layout_width="113dp"
+          android:layout_height="61dp"
+          android:layout_marginEnd="28dp"
+          android:layout_marginBottom="4dp"
+          android:text="Double Chicken Pizza Rs.2350"
+          android:textColor="@color/white"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

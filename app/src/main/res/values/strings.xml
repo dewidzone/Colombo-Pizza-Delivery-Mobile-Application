@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">pizzaColombo</string>
+    <string-array name="spinner_btn">
+        <item>Customer</item>
+        <item>Administration</item>
+    </string-array>
+
+
+    <string name="SausagePizza">Chicken sausages and onions with a double layer of cheese. </string>
+
+
+    <string name="CheesePizza">Rich tomato sauce with a triple layer of mozzarella cheese. </string>
+
+
+    <string name="MightyMeatyPizza">A fusion of BBQ chicken, chicken bacon and sausages complemented with crunchy onions and bell pepper, topped with a layer of mozzarella cheese. </string>
+
+
+    <string name="ChickenPizza">Flavoursome pieces of chicken and crunchy onion with a double layer of cheese. </string>
+
+
+    <string name="DoubleChickenPizza">A combination of kotchchi chicken sausage meat and spicy chicken with crunchy onions and jalapenos placed on a layer of cream cheese and a layer of mozzarella.</string>
+
+
+    <string name="ChickenNugget">Everyone’s favourite wings, baked just the right amount and given the tangy flavor of BBQ sauce to tantalize taste your buds. </string>
+
+
+    <string name="GarlicBread">Sliced and spread with garlic buttery goodness! </string>
+
+
+    <string name="ChocolateMilkshake">Take a sip of a creamy concoction of double chocolate and lose yourself in a chocolate comma. </string>
+
+
+    <string name="StrawberryMilkshake">Go red with the delicious flavour of strawberry, mixed and blended into a creamy shake! </string>
+
+
+</resources>
